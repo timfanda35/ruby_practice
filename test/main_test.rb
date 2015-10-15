@@ -1,7 +1,7 @@
 require "./main.rb"
-require "test/unit"
+require "minitest/autorun"
 
-class TestMain < Test::Unit::TestCase
+class TestMain < Minitest::Test
   def setup
     @subject = Main.new
   end
