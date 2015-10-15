@@ -1,5 +1,5 @@
+require "test_helper"
 require "./main.rb"
-require "minitest/autorun"
 
 class TestMain < Minitest::Test
   def setup
