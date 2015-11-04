@@ -1,5 +1,4 @@
-require "test_helper"
-require "./main.rb"
+require 'main'
 
 class TestMain < Minitest::Test
   def setup
@@ -8,7 +7,7 @@ class TestMain < Minitest::Test
 
   def test_run
     word = @subject.run
-    
+
     assert_equal("Hello world!", word)
   end
 end
