@@ -1,5 +1,7 @@
 require 'rake'
 require 'rake/testtask'
+require 'cucumber'
+require 'cucumber/rake/task'
 
 Rake::TestTask.new do |t|
   t.libs << 'test' << '.'
@@ -7,5 +9,9 @@ Rake::TestTask.new do |t|
   t.ruby_opts << "-r test_helper"
 end
 
-task(default: :test)
+desc "Run cucumber features"
+Cucumber::Rake::Task.new(:features) do |t|
+  t.cucumber_opts = "features --format progress"
+end
 
+task :default => [:test, :features]

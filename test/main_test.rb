@@ -11,4 +11,3 @@ class TestMain < Minitest::Test
     assert_equal("Hello world!", word)
   end
 end
-
