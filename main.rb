@@ -8,6 +8,3 @@ class Main
     @word
   end
 end
-
-Main.new.run
-
