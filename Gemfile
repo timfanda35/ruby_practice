@@ -4,5 +4,7 @@ gem 'rake'
 gem 'minitest'
 gem 'cucumber'
 
-gem "codeclimate-test-reporter", group: :test, require: nil
-
+group :test do
+  gem "simplecov"
+  gem "codeclimate-test-reporter", require: nil
+end
