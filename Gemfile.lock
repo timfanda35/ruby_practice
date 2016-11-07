@@ -15,11 +15,18 @@ GEM
       gherkin (~> 4.0)
     cucumber-wire (0.0.1)
     diff-lcs (1.2.5)
+    docile (1.1.5)
     gherkin (4.0.0)
+    json (2.0.2)
     minitest (5.9.1)
     multi_json (1.12.1)
     multi_test (0.1.2)
     rake (11.3.0)
+    simplecov (0.12.0)
+      docile (~> 1.1.0)
+      json (>= 1.8, < 3)
+      simplecov-html (~> 0.10.0)
+    simplecov-html (0.10.0)
 
 PLATFORMS
   ruby
@@ -29,6 +36,7 @@ DEPENDENCIES
   cucumber
   minitest
   rake
+  simplecov
 
 BUNDLED WITH
    1.12.5
