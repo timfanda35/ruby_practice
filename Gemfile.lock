@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     builder (3.2.3)
-    codeclimate-test-reporter (1.0.5)
+    codeclimate-test-reporter (1.0.6)
       simplecov
     cucumber (2.4.0)
       builder (>= 2.1.2)
