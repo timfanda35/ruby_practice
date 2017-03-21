@@ -2,8 +2,8 @@ GEM
   remote: https://rubygems.org/
   specs:
     builder (3.2.3)
-    codeclimate-test-reporter (1.0.7)
-      simplecov
+    codeclimate-test-reporter (1.0.8)
+      simplecov (<= 0.13)
     cucumber (2.4.0)
       builder (>= 2.1.2)
       cucumber-core (~> 1.5.0)
@@ -23,7 +23,7 @@ GEM
     multi_json (1.12.1)
     multi_test (0.1.2)
     rake (12.0.0)
-    simplecov (0.14.1)
+    simplecov (0.13.0)
       docile (~> 1.1.0)
       json (>= 1.8, < 3)
       simplecov-html (~> 0.10.0)
