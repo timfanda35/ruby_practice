@@ -5,7 +5,7 @@ GEM
     builder (3.2.3)
     codeclimate-test-reporter (1.0.8)
       simplecov (<= 0.13)
-    cucumber (3.0.0)
+    cucumber (3.0.1)
       builder (>= 2.1.2)
       cucumber-core (~> 3.0.0)
       cucumber-expressions (~> 4.0.3)
