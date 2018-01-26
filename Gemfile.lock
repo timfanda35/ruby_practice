@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    backports (3.11.0)
+    backports (3.11.1)
     builder (3.2.3)
     codeclimate-test-reporter (1.0.8)
       simplecov (<= 0.13)
@@ -25,7 +25,7 @@ GEM
     docile (1.1.5)
     gherkin (5.0.0)
     json (2.1.0)
-    minitest (5.11.1)
+    minitest (5.11.2)
     multi_json (1.13.1)
     multi_test (0.1.2)
     rake (12.3.0)
