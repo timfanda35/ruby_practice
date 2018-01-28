@@ -25,7 +25,7 @@ GEM
     docile (1.1.5)
     gherkin (5.0.0)
     json (2.1.0)
-    minitest (5.11.2)
+    minitest (5.11.3)
     multi_json (1.13.1)
     multi_test (0.1.2)
     rake (12.3.0)
